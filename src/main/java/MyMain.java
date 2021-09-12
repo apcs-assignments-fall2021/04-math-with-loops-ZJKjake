@@ -32,7 +32,7 @@ public class MyMain {
     // Calculates the square root iteratively, using the Babylonian method
     public static double babylonian(double x){
         double n = 1;
-        double m = 2;
+        double m;
         while(true) {
             m = (n+x/n)/2;
             if(Math.abs(n-m)<0.00001){
